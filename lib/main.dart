@@ -8,14 +8,21 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+     debugShowCheckedModeBanner: false,
       title: 'Youtube App',
       theme: ThemeData(
+        brightness: Brightness.dark,
         primaryColor: Colors.red,
+        scaffoldBackgroundColor: Colors.black, 
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.black, 
+        ),
+        textTheme: const TextTheme(
+          bodyLarge: TextStyle(color: Colors.white), 
+        ),
       ),
       home: const HomePage(),
     );

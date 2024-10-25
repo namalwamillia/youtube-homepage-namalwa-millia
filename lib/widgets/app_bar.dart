@@ -27,12 +27,12 @@ class _HomePageAppBarIconState extends State<HomePageAppBarIcon> {
               ),
               child: Icon(
                 widget.icon,
-                color: Colors.green,
+                color: Colors.white,
               ),
             )
           : Icon(
               widget.icon,
-              color: Colors.green,
+              color: Colors.white
             ),
     );
   }

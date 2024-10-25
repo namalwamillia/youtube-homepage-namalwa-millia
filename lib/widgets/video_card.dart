@@ -76,7 +76,7 @@ class _SingleVideoCardState extends State<SingleVideoCard>
                       child: Container(
                         padding: const EdgeInsets.all(10),
                         decoration: BoxDecoration(
-                          color: Colors.grey.withOpacity(0.4),
+                          color: const Color.fromARGB(255, 51, 50, 50).withOpacity(0.4),
                         ),
                         child: const Row(
                           children: [
